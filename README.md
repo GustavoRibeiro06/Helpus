@@ -2,13 +2,21 @@
 Abra o  BlueJ e crie uma GUI para  login no Sistema XPTO. A GUI deve conter: JLabel 1: Para entrar no sistema XPTO, digite seu nome e senha: JLabel 2: Nome: JTextField para inserção do nome. JLabel 3: Senha: JPasswordField para inserção da senha O tratamento de eventos deve retornar a mensagem “Obrigado por digitar seu  nome” quando o usuário pressionar “ enter ” após preencher o campo “nome” e  retornar a mensagem “Obrigado por preencher sua senha!” após preencher o  campo “senha”. Finalmente, crie uma classe de teste para sua GUI
 
 import javax.swing.JLabel;
+
 import java.awt.FlowLayout;
+
 import java.awt.event.ActionListener;
+
 import java.awt.event.ActionEvent;
+
 import javax.swing.JFrame;
+
 import javax.swing.JTextField;
+
 import javax.swing.JPasswordField;
+
 import javax.swing.JOptionPane;
+
 
 public class LabelFrame extends JFrame {
     
